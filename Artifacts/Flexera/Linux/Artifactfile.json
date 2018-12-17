@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "Install flexera on Linux",
+    "description": "Installs flexera on the Linux VMs",
+    "publisher": "Shell",
+    "tags": [
+      "Linux"
+    ],
+    "iconUri": "https://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23",
+    "targetOsType": "Linux",  
+    "runCommand": {
+      "commandToExecute": "[concat('sh InstallFlexera.sh ')]"
+    }
+  }
